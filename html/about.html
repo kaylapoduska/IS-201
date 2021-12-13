@@ -1,4 +1,4 @@
-<!--Kayla Poduska, last modified: 12/10/21-->
+<!--Kayla Poduska, last modified: 12/13/21-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,6 +16,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="../styles/styles.css" rel="stylesheet" />
+        <link href="../styles/mystyles.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <!-- Navigation-->
@@ -44,8 +45,8 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="page-heading">
-                            <h1>About Me</h1>
-                            <span class="subheading">This is who I am</span>
+                            <h1 class="myHeader">About Me</h1>
+                            <span class="subheading italic">This is who I am</span>
                         </div>
                     </div>
                 </div>
@@ -56,18 +57,21 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <a href="#fav">Favorite Things</a> | 
-                        <a href="#fun">Fun Facts</a> | 
-                        <a href="#cont">Contact Info</a>
+                        <div class="center">  
+                            <a class= "italic bold" href="#fav">Favorite Things</a> | 
+                            <a class="italic bold" href="#fun">Fun Facts</a> | 
+                            <a class="italic bold" href="#cont">Contact Info</a>
+                        </div>
+                     
                         <br><br><br>
                         <img src="../images/me.jpg" alt="Kayla profile picture" width="600">
                         <br>
-                        <p>I am an 19 year old girl who grew up in Northern California. I am the second of six children in my family. I am headed on a mission in Janurary 2022 and can't wait to speak Spanish and serve the people of Atlanta, Georgia!
+                        <p class="myFont">I am an 19 year old girl who grew up in Northern California. I am the second of six children in my family. I am headed on a mission in Janurary 2022 and can't wait to speak Spanish and serve the people of Atlanta, Georgia!
                             <br><br><br>
                             <ul>
-                                <li id="fav">
+                                <li id="fav" class="bold myHeader">
                                     Favorite Things
-                                    <ul>
+                                    <ul class="myFont">
                                         <li>My family!</li>
                                         <img src="../images/family.jpg" alt="Family photo" width="300">
                                         <li>Classical piano</li>
@@ -78,19 +82,19 @@
                                     </ul>
                                 </li>
                                 <br><br>
-                                <li id="fun">
+                                <li id="fun" class="bold myHeader">
                                     Fun Facts
-                                    <ul>
+                                    <ul class="myFont">
                                         <li>I love watching musicals. Here is a clip from my favorite musical, La La Land:</li>
                                             <iframe width="560" height="315" src="https://www.youtube.com/embed/cZAw8qxn0ZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                        <li>I love country music! Go check out my favorite <a href="https://youtu.be/bbJR1gMt6Jg" target="_blank"><u>country song</u></a></li>
+                                        <li>I love country music. Go check out my favorite <a href="https://youtu.be/bbJR1gMt6Jg" target="_blank"><u>country song!</u></a></li>
                                         <li>I am obssesed with Oreos</li>
                                     </ul>
                                 </li>
                                 <br><br>
-                                <li id="cont">
+                                <li id="cont" class="bold myHeader">
                                     Contact me
-                                    <ul>
+                                    <ul class="myFont">
                                         <li>kaykay@gmail.com</li>
                                         <li>(916) 221-1123</li>
                                     </ul>
@@ -108,32 +112,6 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
                         <div class="small text-center text-muted fst-italic">Copyright &copy; Kayla Poduska 2021</div>
                     </div>
                 </div>
